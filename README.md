@@ -6,11 +6,13 @@ Tested with DownOnSpot commits `eed7fda` and `01ca2df`. On __WINDOWS__ but it is
 
 This is not at all production level code but it should work in the majority of cases.
 
-## Install and config
+## Install
 
 Make sure the required Python libraries are installed (a virtual environment is recommended), see `requirements.txt`.
 
 Compile the `REWRITE` branch of [DownOnSpot](https://github.com/oSumAtrIX/DownOnSpot).
+
+## Config
 
 Modify the `.env` and `config.json` files.
 
@@ -20,6 +22,10 @@ In `config.json` specify the temporary location for DownOnSpot files, the locati
 Also change the region with yours and of course add the playlist URLs you want to download.
 
 > The `extensions_to_scan` parameter should not be changed as the rewrite is only able to download OGG files (for now).
+
+## Usage
+
+Once properly onfigured, simply launch the script with: `python script.py`
 
 # Original README
 
