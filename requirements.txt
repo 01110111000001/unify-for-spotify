@@ -1,0 +1,4 @@
+colorama
+music-tag
+python-dotenv
+spotipy
