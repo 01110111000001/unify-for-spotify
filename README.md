@@ -1,3 +1,28 @@
+# Forked README
+
+This fork is to update the script to work with the `REWRITE` branch of [DownOnSpot](https://github.com/oSumAtrIX/DownOnSpot).
+
+Tested with DownOnSpot commits `eed7fda` and `01ca2df`. On __WINDOWS__ but it is a simple Python script so it should work on other operating systems.
+
+This is not at all production level code but it should work in the majority of cases.
+
+## Install and config
+
+Make sure the required Python libraries are installed (a virtual environment is recommended), see `requirements.txt`.
+
+Compile the `REWRITE` branch of [DownOnSpot](https://github.com/oSumAtrIX/DownOnSpot).
+
+Modify the `.env` and `config.json` files.
+
+`.env` requires the Spotify tokens (see [DownOnSpot](https://github.com/oSumAtrIX/DownOnSpot) for help on how to get them).
+
+In `config.json` specify the temporary location for DownOnSpot files, the location of the DownOnSpot executable, the folder where the playlists will be downloaded.
+Also change the region with yours and of course add the playlist URLs you want to download.
+
+> The `extensions_to_scan` parameter should not be changed as the rewrite is only able to download OGG files (for now).
+
+# Original README
+
 A python script for keeping Spotify playlists in sync with local music library.
 
 The script fetches data for all tracks of a Spotify playlist (using Spotipy) then do it's magic and find tracks that needs to be downloaded and then saves them locally (using DownOnSpot) and keep them in separate folders based on playlist name. It will filter out any tracks that have already been downloaded, are unavailable or are uploaded.
