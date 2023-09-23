@@ -25,7 +25,9 @@ Also change the region with yours and of course add the playlist URLs you want t
 
 ## Usage
 
-Once properly onfigured, simply launch the script with: `python script.py`
+Once properly configured, simply launch the script with:
+
+`python script.py`
 
 # Original README
 
