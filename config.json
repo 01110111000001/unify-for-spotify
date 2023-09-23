@@ -1,5 +1,6 @@
 {
   "local_temp_download_folder": "D:\\Music\\DownOnSpot",
+  "down_on_spot_exec_folder": "D:\\DownOnSpot\\target\\release",
   "local_library_folder": "D:\\Music",
   "extensions_to_scan": [".ogg"],
   "script_owner": "HammadXP modified by 01110111000001",
